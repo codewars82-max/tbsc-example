@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://vd0wfitj16jf"]
+
+[ext_resource type="Script" uid="uid://mjd4vyyjs36p" path="res://components/character.gd" id="1_pqhw6"]
+[ext_resource type="Resource" uid="uid://cd7vl36bb7ut3" path="res://data/character_stats/enemy_stats.tres" id="2_pqhw6"]
+
+[node name="Enemy" type="Node2D" node_paths=PackedStringArray("name_label", "hp_label")]
+script = ExtResource("1_pqhw6")
+stats = ExtResource("2_pqhw6")
+name_label = NodePath("Name_Label")
+hp_label = NodePath("HP_Label")
+
+[node name="HP_Label" type="Label" parent="."]
+offset_top = -27.0
+offset_right = 40.0
+offset_bottom = -4.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(0.62224126, 0.20977587, 0.35668132, 1)
+
+[node name="Name_Label" type="Label" parent="."]
+offset_top = 45.0
+offset_right = 40.0
+offset_bottom = 68.0

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Skill" load_steps=2 format=3 uid="uid://lpp7e86t5mwo"]
+
+[ext_resource type="Script" uid="uid://c8jr1k62vkce8" path="res://components/skill.gd" id="1_m5sqj"]
+
+[resource]
+script = ExtResource("1_m5sqj")
+name = "Heal (100HP, 15MP, 1s)"
+target_type = "self"
+mp_cost = 15
+cast_time = 1.0
+heal = 100
+metadata/_custom_type_script = "uid://c8jr1k62vkce8"

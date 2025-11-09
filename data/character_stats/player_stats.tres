@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CharacterStats" load_steps=6 format=3 uid="uid://cvfwgph65d2ts"]
+
+[ext_resource type="Script" uid="uid://c8jr1k62vkce8" path="res://components/skill.gd" id="1_dx1mf"]
+[ext_resource type="Script" uid="uid://1g5ih6txh0ye" path="res://components/character_stats.gd" id="2_rymji"]
+[ext_resource type="Resource" uid="uid://b64acujuydsbo" path="res://data/skills/attack.tres" id="2_y8xc6"]
+[ext_resource type="Resource" uid="uid://dokugaqvj8sv7" path="res://data/skills/fireball.tres" id="3_f8p1l"]
+[ext_resource type="Resource" uid="uid://lpp7e86t5mwo" path="res://data/skills/heal.tres" id="4_jmb75"]
+
+[resource]
+script = ExtResource("2_rymji")
+max_hp = 300
+speed = 75
+available_skills = Array[ExtResource("1_dx1mf")]([ExtResource("2_y8xc6"), ExtResource("3_f8p1l"), ExtResource("4_jmb75")])
+metadata/_custom_type_script = "uid://1g5ih6txh0ye"

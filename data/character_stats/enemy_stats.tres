@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CharacterStats" load_steps=6 format=3 uid="uid://cd7vl36bb7ut3"]
+
+[ext_resource type="Script" uid="uid://c8jr1k62vkce8" path="res://components/skill.gd" id="1_iniki"]
+[ext_resource type="Resource" uid="uid://b64acujuydsbo" path="res://data/skills/attack.tres" id="2_cs2u5"]
+[ext_resource type="Resource" uid="uid://dokugaqvj8sv7" path="res://data/skills/fireball.tres" id="3_an6tr"]
+[ext_resource type="Resource" uid="uid://lpp7e86t5mwo" path="res://data/skills/heal.tres" id="4_dlsb7"]
+[ext_resource type="Script" uid="uid://1g5ih6txh0ye" path="res://components/character_stats.gd" id="5_bvum7"]
+
+[resource]
+script = ExtResource("5_bvum7")
+max_mp = 30
+available_skills = Array[ExtResource("1_iniki")]([ExtResource("2_cs2u5"), ExtResource("3_an6tr"), ExtResource("4_dlsb7")])
+metadata/_custom_type_script = "uid://1g5ih6txh0ye"

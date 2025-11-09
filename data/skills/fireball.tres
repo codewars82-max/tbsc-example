@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Skill" load_steps=2 format=3 uid="uid://dokugaqvj8sv7"]
+
+[ext_resource type="Script" uid="uid://c8jr1k62vkce8" path="res://components/skill.gd" id="1_g1th6"]
+
+[resource]
+script = ExtResource("1_g1th6")
+name = "Fireball (40DMG, 10MP, 2s)"
+mp_cost = 10
+cast_time = 2.0
+damage = 40
+metadata/_custom_type_script = "uid://c8jr1k62vkce8"

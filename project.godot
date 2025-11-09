@@ -11,6 +11,10 @@ config_version=5
 [application]
 
 config/name="Turn Based 01"
-run/main_scene="uid://csj2riio6sb0o"
+run/main_scene="uid://3qpvflagogpe"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GlobalSignals="*res://core/global_signals.gd"
